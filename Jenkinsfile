@@ -11,7 +11,7 @@ pipeline {
             steps {
                 sh 'newman --version'
 
-                sh 'newman run REST Petclinic backend.postman_collection.json'
+                sh 'newman run REST-Petclinic-backend.postman_collection.json'
             }
         }
     }
